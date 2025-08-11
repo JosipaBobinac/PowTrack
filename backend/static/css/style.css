@@ -1,0 +1,54 @@
+/* Stilizacija za pozadinu i glavni spremnik */
+body {
+    background-image: url('/static/img/pozadina.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+/* Centriranje loga i naslova */
+.text-center {
+    text-align: center;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Stilizacija za tabove */
+.nav-tabs .nav-link {
+    color: #495057;
+    background-color: #e9ecef;
+    border-color: #dee2e6 #dee2e6 #fff;
+}
+
+.nav-tabs .nav-link.active {
+    color: #495057;
+    background-color: #fff;
+    border-color: #dee2e6 #dee2e6 #fff;
+}
+
+/* Stilizacija za tablicu */
+.table th, .table td {
+    vertical-align: middle;
+}
+
+/* Stilizacija za sliku životinje u tablici */
+.table img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+/* Stilizacija za dugmad u tablici */
+.table .btn {
+    min-width: 80px;
+}
