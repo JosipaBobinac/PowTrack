@@ -17,3 +17,4 @@ coverage/
 *.pid
 *.db
 .env
+ipt1.tar
